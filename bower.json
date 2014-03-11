@@ -1,0 +1,15 @@
+{
+  "name": "gfm-stylesheet",
+  "version": "1.0.0",
+  "keywords": [
+    "github",
+    "markdown",
+    "css"
+  ],
+  "main": [
+    "css/github-markdown.css"
+  ],
+  "ignore": [
+    "**/.*",
+  ]
+}
