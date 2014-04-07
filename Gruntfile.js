@@ -1,8 +1,8 @@
 /*!
- * GitHub Flavored Markdown Stylesheet
- * https://github.com/github/gfm-stylesheet
+ * GitHub User Content Stylesheets -- rendered markdown and syntax highlighting
+ * https://github.com/primer/user-content
  * Copyright 2014 GitHub, Inc.
- * Licensed under MIT (https://github.com/github/gfm-stylesheet/blob/master/LICENSE.md)
+ * Licensed under MIT (https://github.com/primer/user-content/blob/master/LICENSE.md)
  */
 
 module.exports = function(grunt) {
@@ -11,7 +11,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     banner: '/*!\n' +
-            ' * GitHub Flavored Markdown Stylesheet v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
+            ' * GitHub User Content Stylesheets v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
             ' * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
             ' * Licensed under <%= pkg.license.type %> (<%= pkg.license.url %>).\n' +
             ' */\n',
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'css/github-markdown.css': 'scss/github-markdown.scss'
+          'css/user-content.css': 'scss/user-content.scss'
         }
       }
     },
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'css/github-markdown.css': 'css/github-markdown.css'
+          'css/user-content.css': 'css/user-content.css'
         }
       }
     },
@@ -43,8 +43,8 @@ module.exports = function(grunt) {
         report: 'min'
       },
       dist: {
-        src: 'css/github-markdown.css',
-        dest: 'css/github-markdown.min.css'
+        src: 'css/user-content.css',
+        dest: 'css/user-content.min.css'
       }
     },
 
