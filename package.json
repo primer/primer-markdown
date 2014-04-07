@@ -1,26 +1,26 @@
 {
-  "name": "gfm-stylesheet",
-  "description": "Stylesheet for rendering GitHub Flavored Markdown.",
+  "name": "primer-user-content",
+  "description": "GitHub stylesheets for rendering markdown and syntax highlighting.",
   "version": "1.0.0",
   "keywords": [
     "github",
     "markdown",
     "css"
   ],
-  "homepage": "https://github.com/github/gfm-stylesheet",
+  "homepage": "https://github.com/primer/user-content",
   "author": "GitHub, Inc.",
-  "style": "css/github-markdown.css",
-  "less": "scss/github-markdown.scss",
+  "style": "user-content.css",
+  "less": "scss/user-content.scss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/github/gfm-stylesheet.git"
+    "url": "https://github.com/primer/user-content.git"
   },
   "bugs": {
-    "url": "https://github.com/github/gfm-stylesheet/issues"
+    "url": "https://github.com/primer/user-content/issues"
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/github/gfm-stylesheet/blob/master/LICENSE.md"
+    "url": "https://github.com/primer/user-content/blob/master/LICENSE.md"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
