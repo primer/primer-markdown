@@ -1,6 +1,13 @@
+@import "primer/mixins/box-sizing";
+
+// All of our block level items should have the same margin
 $margin: 15px;
 
+// This is styling for generic markdownized text. Anything you put in a
+// container with .markdown-body on it should render generally well. It also
+// includes some GitHub Flavored Markdown specific styling (like @mentions)
 .markdown-body {
+
   font-size: 15px;
   line-height: 1.7;
   overflow: hidden;
@@ -20,15 +27,15 @@ $margin: 15px;
   }
 
   a.anchor {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
     display: block;
     padding-right: 6px;
     padding-left: 30px;
     margin-left: -30px;
     cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
 
     &:focus {
       outline: none
@@ -37,12 +44,12 @@ $margin: 15px;
 
   // Headings
   h1, h2, h3, h4, h5, h6 {
-    position: relative;
-    margin-top: 1em;
-    margin-bottom: $margin;
+    margin: 1em 0 $margin;
+    padding: 0;
     font-weight: bold;
     line-height: 1.7;
     cursor: text;
+    position: relative;
 
     .octicon-link {
       display: none;
@@ -50,18 +57,17 @@ $margin: 15px;
     }
 
     &:hover a.anchor {
-      top: 15%;
+      text-decoration: none;
+      line-height: 1;
       padding-left: 8px;
       margin-left: -30px;
-      line-height: 1;
-      text-decoration: none;
+      top: 15%;
 
       .octicon-link {
         display: inline-block;
       }
     }
-    tt,
-    code {
+    tt, code {
       font-size: inherit;
     }
   }
@@ -89,8 +95,8 @@ $margin: 15px;
   }
 
   h6 {
-    font-size: 1em;
     color: #777;
+    font-size: 1em;
   }
 
   p,
@@ -98,30 +104,51 @@ $margin: 15px;
   ul, ol, dl,
   table,
   pre {
-    margin-top: $margin;
-    margin-bottom: $margin;
+    margin: $margin 0;
   }
 
   hr {
-    height: 4px;
-    margin-top: $margin;
-    margin-bottom: $margin;
+    background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+    border: 0 none;
     color: #ccc;
-    background: transparent image-url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC") repeat-x 0 0;
-    border: 0;
+    height: 4px;
+    padding: 0;
+    margin: $margin 0;
   }
 
   // Lists, Blockquotes & Such
-  ul,
-  ol {
+  ul, ol {
     padding-left: 30px;
 
     &.no-list {
-      padding-left: 0;
       list-style-type: none;
+      padding: 0;
     }
   }
 
+  // Did someone complain about list spacing? Encourage them
+  // to create the spacing with their markdown formatting.
+  // List behavior should be controled by the markup, not the css.
+  //
+  // For lists with padding between items, use blank
+  // lines between items. This will generate paragraphs with
+  // padding to space things out.
+  //
+  // - item
+  //
+  // - item
+  //
+  // - item
+  //
+  // For list without padding, don't use blank lines.
+  //
+  // - item
+  // - item
+  // - item
+  //
+  // Modifying the css to emulate these behaviors merely brakes
+  // one case in the process of solving another. Don't change
+  // this unless it's really really a bug.
   ul ul,
   ul ol,
   ol ol,
@@ -134,51 +161,52 @@ $margin: 15px;
     padding: 0;
   }
 
-  dt {
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
     padding: 0;
     margin-top: $margin;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: bold;
   }
 
-  dd {
-    padding: 0 15px;
+  dl dd {
     margin-bottom: $margin;
+    padding: 0 15px;
   }
 
   blockquote {
+    border-left: 4px solid #DDD;
     padding: 0 15px;
     color: #777;
-    border-left: 4px solid #ddd;
 
     & > :first-child {
-      margin-top: 0;
+      margin-top: 0px;
     }
 
     & > :last-child {
-      margin-bottom: 0;
+      margin-bottom: 0px;
     }
   }
 
   // Tables
   table {
-    display: block;
+
     width: 100%;
     overflow: auto;
+    display: block;
 
     th {
       font-weight: bold;
     }
 
     th, td {
-      padding: 6px 13px;
       border: 1px solid #ddd;
+      padding: 6px 13px;
     }
 
     tr {
-      background-color: #fff;
       border-top: 1px solid #ccc;
+      background-color: #fff;
 
       &:nth-child(2n) {
         background-color: #f8f8f8;
@@ -188,10 +216,8 @@ $margin: 15px;
 
   // Images & Stuff
   img {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
     max-width: 100%;
+    @include box-sizing();
   }
 
   // Gollum Image Tags
@@ -202,23 +228,25 @@ $margin: 15px;
     overflow: hidden;
 
     & > span {
-      float: left;
-      width: auto;
-      padding: 7px;
-      margin: 13px 0 0;
-      overflow: hidden;
       border: 1px solid #ddd;
+      display: block;
+      float: left;
+      overflow: hidden;
+      margin: 13px 0 0;
+      padding: 7px;
+      width: auto;
     }
 
     span img {
+      display: block;
       float: left;
     }
 
     span span {
-      display: block;
-      padding: 5px 0 0;
       clear: both;
       color: #333;
+      display: block;
+      padding: 5px 0 0;
     }
   }
 
@@ -229,8 +257,8 @@ $margin: 15px;
 
     & > span {
       display: block;
-      margin: 13px auto 0;
       overflow: hidden;
+      margin: 13px auto 0;
       text-align: center;
     }
 
@@ -247,8 +275,8 @@ $margin: 15px;
 
     & > span {
       display: block;
-      margin: 13px 0 0;
       overflow: hidden;
+      margin: 13px 0 0;
       text-align: right;
     }
 
@@ -259,9 +287,10 @@ $margin: 15px;
   }
 
   span.float-left {
-    float: left;
+    display: block;
     margin-right: 13px;
     overflow: hidden;
+    float: left;
 
     span {
       margin: 13px 0 0;
@@ -269,58 +298,74 @@ $margin: 15px;
   }
 
   span.float-right {
-    float: right;
+    display: block;
     margin-left: 13px;
     overflow: hidden;
+    float: right;
 
     & > span {
       display: block;
-      margin: 13px auto 0;
       overflow: hidden;
+      margin: 13px auto 0;
       text-align: right;
     }
   }
 
   // Inline code snippets
   code, tt {
-    padding: 0px 5px;
-    margin: 0 2px;
+    margin: 0;
     border: 1px solid #ddd;
     background-color: #f8f8f8;
     border-radius:3px;
+
+    padding: 0; // don't add padding, gives scrollbars
+
+    &:before, &:after { // this creates padding
+      content: "\00a0";
+      letter-spacing: -0.2em;
+    }
+
+    br { display: none; }
   }
 
-  code { white-space: nowrap; }
+  del code { text-decoration: inherit; vertical-align: text-top; }
 
   // Code tags within code blocks (<pre>s)
   pre > code {
-    padding: 0;
     margin: 0;
+    padding: 0;
     white-space: pre;
-    border: 0;
-    background-color: transparent;
+    border: none;
+    background: transparent;
   }
 
   .highlight pre, pre {
-    padding: 6px 10px;
-    overflow: auto;
-    font-size: 13px;
-    line-height: 19px;
     background-color: #f8f8f8;
     border: 1px solid #ddd;
-    border-radius: 3px;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius:3px;
   }
 
   pre {
     word-wrap: normal;
   }
 
-  pre code,
-  pre tt {
-    padding: 0;
+  pre code, pre tt {
     margin: 0;
-    word-wrap: normal;
+    padding: 0;
     background-color: transparent;
-    border: 0;
+    border: none;
+    word-wrap: normal;
+    max-width: initial;
+    display: inline;
+    overflow: initial;
+    line-height: inherit;
+
+    &:before, &:after {
+      content: normal;
+    }
   }
 }
