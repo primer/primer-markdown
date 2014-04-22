@@ -35,8 +35,8 @@
 }
 .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
   position: relative;
-  margin-top: 1em;
-  margin-bottom: 15px;
+  padding: 0;
+  margin: 1em 0 15px;
   font-weight: bold;
   line-height: 1.7;
   cursor: text;
@@ -79,40 +79,46 @@
   font-size: 1em;
   color: #777;
 }
-.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-body ol, .markdown-body dl, .markdown-body table, .markdown-body pre {
-  margin-top: 15px;
-  margin-bottom: 15px;
+.markdown-body p,
+  .markdown-body blockquote,
+  .markdown-body ul, .markdown-body ol, .markdown-body dl,
+  .markdown-body table,
+  .markdown-body pre {
+  margin: 15px 0;
 }
 .markdown-body hr {
   height: 4px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding: 0;
+  margin: 15px 0;
   color: #ccc;
-  background: transparent url("/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC") repeat-x 0 0;
-  border: 0;
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
 }
 .markdown-body ul, .markdown-body ol {
   padding-left: 30px;
 }
 .markdown-body ul.no-list, .markdown-body ol.no-list {
-  padding-left: 0;
+  padding: 0;
   list-style-type: none;
 }
-.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown-body ol ul {
+.markdown-body ul ul,
+  .markdown-body ul ol,
+  .markdown-body ol ol,
+  .markdown-body ol ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 .markdown-body dl {
   padding: 0;
 }
-.markdown-body dt {
+.markdown-body dl dt {
   padding: 0;
   margin-top: 15px;
   font-size: 14px;
   font-style: italic;
   font-weight: bold;
 }
-.markdown-body dd {
+.markdown-body dl dd {
   padding: 0 15px;
   margin-bottom: 15px;
 }
@@ -148,15 +154,15 @@
 }
 .markdown-body img {
   max-width: 100%;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
 }
 .markdown-body span.frame {
   display: block;
   overflow: hidden;
 }
 .markdown-body span.frame > span {
+  display: block;
   float: left;
   width: auto;
   padding: 7px;
@@ -165,6 +171,7 @@
   border: 1px solid #ddd;
 }
 .markdown-body span.frame span img {
+  display: block;
   float: left;
 }
 .markdown-body span.frame span span {
@@ -204,6 +211,7 @@
   text-align: right;
 }
 .markdown-body span.float-left {
+  display: block;
   float: left;
   margin-right: 13px;
   overflow: hidden;
@@ -212,6 +220,7 @@
   margin: 13px 0 0;
 }
 .markdown-body span.float-right {
+  display: block;
   float: right;
   margin-left: 13px;
   overflow: hidden;
@@ -223,21 +232,29 @@
   text-align: right;
 }
 .markdown-body code, .markdown-body tt {
-  padding: 0 5px;
-  margin: 0 2px;
+  padding: 0;
+  margin: 0;
   background-color: #f8f8f8;
   border: 1px solid #ddd;
   border-radius: 3px;
 }
-.markdown-body code {
-  white-space: nowrap;
+.markdown-body code:before, .markdown-body code:after, .markdown-body tt:before, .markdown-body tt:after {
+  letter-spacing: -.2em;
+  content: "\00a0";
+}
+.markdown-body code br, .markdown-body tt br {
+  display: none;
+}
+.markdown-body del code {
+  text-decoration: inherit;
+  vertical-align: text-top;
 }
 .markdown-body pre > code {
   padding: 0;
   margin: 0;
   white-space: pre;
-  background-color: transparent;
-  border: 0;
+  background: transparent;
+  border: none;
 }
 .markdown-body .highlight pre, .markdown-body pre {
   padding: 6px 10px;
@@ -252,11 +269,18 @@
   word-wrap: normal;
 }
 .markdown-body pre code, .markdown-body pre tt {
+  display: inline;
+  max-width: initial;
   padding: 0;
   margin: 0;
+  overflow: initial;
+  line-height: inherit;
   word-wrap: normal;
   background-color: transparent;
-  border: 0;
+  border: none;
+}
+.markdown-body pre code:before, .markdown-body pre code:after, .markdown-body pre tt:before, .markdown-body pre tt:after {
+  content: normal;
 }
 
 .highlight {
@@ -363,7 +387,7 @@
   color: #333;
 }
 .highlight .na {
-  color: #008080;
+  color: teal;
 }
 .highlight .nb {
   color: #0086b3;
@@ -373,10 +397,10 @@
   color: #458;
 }
 .highlight .no {
-  color: #008080;
+  color: teal;
 }
 .highlight .ni {
-  color: #800080;
+  color: purple;
 }
 .highlight .ne {
   font-weight: bold;
@@ -390,10 +414,10 @@
   color: #555;
 }
 .highlight .nt {
-  color: #000080;
+  color: navy;
 }
 .highlight .nv {
-  color: #008080;
+  color: teal;
 }
 .highlight .ow {
   font-weight: bold;
@@ -450,13 +474,13 @@
   color: #999;
 }
 .highlight .vc {
-  color: #008080;
+  color: teal;
 }
 .highlight .vg {
-  color: #008080;
+  color: teal;
 }
 .highlight .vi {
-  color: #008080;
+  color: teal;
 }
 .highlight .il {
   color: #099;
@@ -467,10 +491,10 @@
 }
 
 .type-csharp .highlight .k {
-  color: #00f;
+  color: blue;
 }
 .type-csharp .highlight .kt {
-  color: #00f;
+  color: blue;
 }
 .type-csharp .highlight .nf {
   font-weight: normal;
@@ -480,7 +504,7 @@
   color: #2b91af;
 }
 .type-csharp .highlight .nn {
-  color: #000;
+  color: black;
 }
 .type-csharp .highlight .s {
   color: #a31515;

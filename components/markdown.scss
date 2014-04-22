@@ -1,5 +1,3 @@
-@import "primer/mixins/box-sizing";
-
 // All of our block level items should have the same margin
 $margin: 15px;
 
@@ -217,7 +215,8 @@ $margin: 15px;
   // Images & Stuff
   img {
     max-width: 100%;
-    @include box-sizing();
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
 
   // Gollum Image Tags

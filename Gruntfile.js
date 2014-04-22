@@ -19,18 +19,18 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'css/user-content.css': 'scss/user-content.scss'
+          'dist/user-content.css': 'components/user-content.scss'
         }
       }
     },
 
     csscomb: {
       options: {
-        config: 'scss/.csscomb.json'
+        config: 'components/.csscomb.json'
       },
       dist: {
         files: {
-          'css/user-content.css': 'css/user-content.css'
+          'dist/user-content.css': 'dist/user-content.css'
         }
       }
     },
@@ -43,8 +43,8 @@ module.exports = function(grunt) {
         report: 'min'
       },
       dist: {
-        src: 'css/user-content.css',
-        dest: 'css/user-content.min.css'
+        src: 'dist/user-content.css',
+        dest: 'dist/user-content.min.css'
       }
     },
 
@@ -56,7 +56,7 @@ module.exports = function(grunt) {
         },
         files: {
           src: [
-            'css/*.css'
+            'dist/*.css'
           ]
         }
       }
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
     watch: {
       scss: {
         files: [
-          'scss/*.scss'
+          'components/*.scss'
         ],
         tasks: ['sass']
       }

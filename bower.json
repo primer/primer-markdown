@@ -7,11 +7,13 @@
     "css"
   ],
   "main": [
-    "css/github-markdown.css"
+    "dist/github-markdown.css"
   ],
   "ignore": [
     "**/.*",
     "*.js",
-    "README.md"
+    "README.md",
+    "Gruntfile.js",
+    "package.json"
   ]
 }
