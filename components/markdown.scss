@@ -44,8 +44,7 @@ $margin: 15px;
   h1, h2, h3, h4, h5, h6 {
     margin: 1em 0 $margin;
     padding: 0;
-    font-weight: 500;
-    line-height: 1.7;
+    line-height: 1.4;
     cursor: text;
     position: relative;
 
@@ -71,21 +70,22 @@ $margin: 15px;
   }
 
   h1 {
-    font-size: 2.2em;
-    border-bottom: 1px solid #eee;
+    font-size: 2.3em;
+    line-height: 1.16;
   }
 
   h2 {
-    font-size: 1.8em;
-    border-bottom: 1px solid #eee;
+    font-size: 1.85em;
+    line-height: 1.225;
   }
 
   h3 {
-    font-size: 1.5em;
+    font-size: 1.4em;
+    line-height: 1.43;
   }
 
   h4 {
-    font-size: 1.2em;
+    font-size: 1.15em;
   }
 
   h5 {
