@@ -108,16 +108,18 @@ $margin: 15px;
     color: #777;
   }
 
-  p {
-    margin-top: 0;
-    margin-bottom: $margin;
-  }
-
+  p,
   blockquote,
   ul, ol, dl,
   table,
   pre {
-    margin: $margin 0;
+    margin-top: 0;
+    margin-bottom: $margin;
+  }
+
+  p + ul,
+  p + ol {
+    margin-top: -15px;
   }
 
   hr {
