@@ -1,5 +1,5 @@
 // All of our block level items should have the same margin
-$margin: 15px;
+$margin: 16px;
 
 // This is styling for generic markdownized text. Anything you put in a
 // container with .markdown-body on it should render generally well. It also
@@ -7,24 +7,24 @@ $margin: 15px;
 .markdown-body {
   overflow: hidden;
   font-family: "Helvetica Neue";
-  font-size: 15px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.6;
   word-wrap: break-word;
 
-  & > *:first-child {
+  > *:first-child {
     margin-top: 0 !important;
   }
 
-  & > *:last-child {
+  > *:last-child {
     margin-bottom: 0 !important;
   }
 
   // Link Colors
-  a.absent {
+  .absent {
     color: #c00;
   }
 
-  a.anchor {
+  .anchor {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -43,7 +43,6 @@ $margin: 15px;
   // Headings
   h1, h2, h3, h4, h5, h6 {
     position: relative;
-    padding: 0;
     margin-top: 1em;
     font-weight: bold;
     line-height: 1.4;
@@ -52,10 +51,11 @@ $margin: 15px;
     .octicon-link {
       display: none;
       color: #000;
+      vertical-align: middle;
     }
 
-    &:hover a.anchor {
-      top: 15%;
+    &:hover .anchor {
+      height: 1em;
       padding-left: 8px;
       margin-left: -30px;
       line-height: 1;
@@ -65,36 +65,38 @@ $margin: 15px;
         display: inline-block;
       }
     }
-    tt, code {
+
+    tt,
+    code {
       font-size: inherit;
     }
   }
 
   h1 {
-    padding-bottom: .2em;
-    margin-bottom: .4em;
-    font-size: 2.3em;
-    line-height: 1.16;
+    padding-bottom: .3em;
+    margin-bottom: $margin;
+    font-size: 2.25em;
+    line-height: 1.2;
     border-bottom: 1px solid #eee;
   }
 
   h2 {
-    padding-bottom: .2em;
-    margin-bottom: .4em;
-    font-size: 1.85em;
+    padding-bottom: .3em;
+    margin-bottom: $margin;
+    font-size: 1.75em;
     line-height: 1.225;
     border-bottom: 1px solid #eee;
   }
 
   h3 {
     margin-bottom: 0;
-    font-size: 1.4em;
+    font-size: 1.5em;
     line-height: 1.43;
   }
 
   h4 {
     margin-bottom: .1em;
-    font-size: 1.15em;
+    font-size: 1.25em;
   }
 
   h5 {
@@ -117,11 +119,6 @@ $margin: 15px;
     margin-bottom: $margin;
   }
 
-  p + ul,
-  p + ol {
-    margin-top: -15px;
-  }
-
   hr {
     height: 4px;
     padding: 0;
@@ -131,8 +128,9 @@ $margin: 15px;
   }
 
   // Lists, Blockquotes & Such
-  ul, ol {
-    padding-left: 30px;
+  ul,
+  ol {
+    padding-left: 2em;
 
     &.no-list {
       padding: 0;
@@ -178,27 +176,27 @@ $margin: 15px;
   dl dt {
     padding: 0;
     margin-top: $margin;
-    font-size: 14px;
+    font-size: 1em;
     font-style: italic;
     font-weight: bold;
   }
 
   dl dd {
-    padding: 0 15px;
+    padding: 0 $margin;
     margin-bottom: $margin;
   }
 
   blockquote {
     padding: 0 15px;
     color: #777;
-    border-left: 4px solid #DDD;
+    border-left: 4px solid #ddd;
 
-    & > :first-child {
-      margin-top: 0px;
+    > :first-child {
+      margin-top: 0;
     }
 
-    & > :last-child {
-      margin-bottom: 0px;
+    > :last-child {
+      margin-bottom: 0;
     }
   }
 
@@ -327,14 +325,19 @@ $margin: 15px;
   }
 
   // Inline code snippets
-  code, tt {
+  code,
+  tt {
     padding: 0;
     margin: 0;
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
-    border-radius:3px; // don't add padding, gives scrollbars
+    font-size: 85%;
+    color: #555;
+    background-color: #f7f7f7;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    border-radius: 3px; // don't add padding, gives scrollbars
 
-    &:before, &:after {
+    &:before,
+    &:after {
       letter-spacing: -0.2em; // this creates padding
       content: "\00a0";
     }
@@ -348,26 +351,27 @@ $margin: 15px;
   pre > code {
     padding: 0;
     margin: 0;
+    font-size: 100%;
     white-space: pre;
     background: transparent;
-    border: none;
+    border: 0;
   }
 
   .highlight pre, pre {
-    padding: 6px 10px;
+    padding: $margin;
     overflow: auto;
-    font-size: 13px;
-    line-height: 19px;
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
-    border-radius:3px;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border-radius: 3px;
   }
 
   pre {
     word-wrap: normal;
   }
 
-  pre code, pre tt {
+  pre code,
+  pre tt {
     display: inline;
     max-width: initial;
     padding: 0;
@@ -376,9 +380,10 @@ $margin: 15px;
     line-height: inherit;
     word-wrap: normal;
     background-color: transparent;
-    border: none;
+    border: 0;
 
-    &:before, &:after {
+    &:before,
+    &:after {
       content: normal;
     }
   }
