@@ -33,7 +33,6 @@ $margin: 16px;
     padding-right: 6px;
     padding-left: 30px;
     margin-left: -30px;
-    cursor: pointer;
 
     &:focus {
       outline: none;
@@ -46,7 +45,6 @@ $margin: 16px;
     margin-top: 1em;
     font-weight: bold;
     line-height: 1.4;
-    cursor: text;
 
     .octicon-link {
       display: none;
