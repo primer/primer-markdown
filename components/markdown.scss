@@ -75,6 +75,7 @@ $margin: 16px;
     padding-bottom: 0.3em;
     margin-bottom: $margin;
     font-size: 2.25em;
+    font-weight: normal;
     line-height: 1.2;
     border-bottom: 1px solid #eee;
   }
@@ -83,6 +84,7 @@ $margin: 16px;
     padding-bottom: 0.3em;
     margin-bottom: $margin;
     font-size: 1.75em;
+    font-weight: normal;
     line-height: 1.225;
     border-bottom: 1px solid #eee;
   }
@@ -327,12 +329,12 @@ $margin: 16px;
   code,
   tt {
     padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
     margin: 0;
     font-size: 85%;
     color: #555;
     background-color: #f7f7f7;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
     border-radius: 3px; // don't add padding, gives scrollbars
 
     &:before,
