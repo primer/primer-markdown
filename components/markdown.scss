@@ -168,6 +168,10 @@ $margin: 16px;
     margin-bottom: 0;
   }
 
+  li > p {
+    margin-top: $margin;
+  }
+
   dl {
     padding: 0;
   }
