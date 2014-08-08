@@ -359,8 +359,14 @@ $margin: 16px;
     border: 0;
   }
 
-  .highlight pre, pre {
+  .highlight {
+    margin-bottom: $margin;
+  }
+
+  .highlight pre,
+  pre {
     padding: $margin;
+    margin-bottom: 0;
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
