@@ -163,6 +163,10 @@ $margin: 16px;
     margin-bottom: 0;
   }
 
+  li > p {
+    margin-top: $margin;
+  }
+
   dl {
     padding: 0;
   }
@@ -326,7 +330,7 @@ $margin: 16px;
     padding-bottom: 0.2em;
     margin: 0;
     font-size: 85%;
-    background-color: #f7f7f7;
+    background-color: rgba(0,0,0,0.04);
     border-radius: 3px; // don't add padding, gives scrollbars
 
     &:before,
@@ -350,8 +354,14 @@ $margin: 16px;
     border: 0;
   }
 
-  .highlight pre, pre {
+  .highlight {
+    margin-bottom: $margin;
+  }
+
+  .highlight pre,
+  pre {
     padding: $margin;
+    margin-bottom: 0;
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
