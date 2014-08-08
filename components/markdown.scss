@@ -44,6 +44,7 @@ $margin: 16px;
   h1, h2, h3, h4, h5, h6 {
     position: relative;
     margin-top: 1em;
+    margin-bottom: $margin;
     font-weight: bold;
     line-height: 1.4;
 
@@ -73,7 +74,6 @@ $margin: 16px;
 
   h1 {
     padding-bottom: 0.3em;
-    margin-bottom: $margin;
     font-size: 2.25em;
     line-height: 1.2;
     border-bottom: 1px solid #eee;
@@ -81,30 +81,25 @@ $margin: 16px;
 
   h2 {
     padding-bottom: 0.3em;
-    margin-bottom: $margin;
     font-size: 1.75em;
     line-height: 1.225;
     border-bottom: 1px solid #eee;
   }
 
   h3 {
-    margin-bottom: 0;
     font-size: 1.5em;
     line-height: 1.43;
   }
 
   h4 {
-    margin-bottom: 0.1em;
     font-size: 1.25em;
   }
 
   h5 {
-    margin-bottom: 0.2em;
     font-size: 1em;
   }
 
   h6 {
-    margin-bottom: 0.2em;
     font-size: 1em;
     color: #777;
   }
