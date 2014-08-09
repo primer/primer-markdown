@@ -21,13 +21,13 @@ The GitHub user content stylesheets ship in two formats, CSS and SCSS.
 
 
 
-## Local development
+## Development
 
-The stylesheets are written in SCSS and compiled to regular CSS via [Gruntfile](Gruntfile.js). To compile on your own, you need Grunt and our project's dependencies installed.
+The stylesheets are written in SCSS and compiled to regular CSS. Also included is a [Gruntfile](Gruntfile.js) for local project development.
 
 1. Install `grunt-cli` globally with `npm install -g grunt-cli`.
 2. Navigate to the root `/user-content` directory, then run `npm install` to install the necessary dependencies.
-3. Done! Now you can run `grunt` from the command line.
+3. Done! Now you can run `grunt` from the command line to compile SCSS to CSS.
 
 **Unfamiliar with `npm`? Don't have node installed?** That's a-okay. npm stands for [node packaged modules](http://npmjs.org/) and is a way to manage development dependencies through node.js. [Download and install node.js](http://nodejs.org/download/) before proceeding.
 
