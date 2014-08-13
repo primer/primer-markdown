@@ -203,6 +203,7 @@ $margin: 16px;
     width: 100%;
     overflow: auto;
     word-break: normal;
+    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
 
     th {
       font-weight: bold;
