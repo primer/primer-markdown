@@ -7,7 +7,6 @@ $margin: 16px;
 .markdown-body {
   overflow: hidden;
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
-
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
@@ -201,9 +200,10 @@ $margin: 16px;
   // Tables
   table {
     display: block;
-
     width: 100%;
     overflow: auto;
+    word-break: normal;
+    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
 
     th {
       font-weight: bold;
