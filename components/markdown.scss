@@ -349,6 +349,7 @@ $margin: 16px;
     padding: 0;
     margin: 0;
     font-size: 100%;
+    word-break: normal;
     white-space: pre;
     background: transparent;
     border: 0;
@@ -370,6 +371,7 @@ $margin: 16px;
 
   .highlight pre {
     margin-bottom: 0;
+    word-break: normal;
   }
 
   pre {
