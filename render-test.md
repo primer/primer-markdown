@@ -1,4 +1,4 @@
-Text can be **bold** or _italic_. [Links](http://github.com) should be blue with no underlines (unless hovered over).
+Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](http://github.com) should be blue with no underlines (unless hovered over).
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
@@ -70,6 +70,19 @@ And a nested list:
   * Michelangelo
   * Donatello
   * Raphael
+
+Definition lists can be used with HTML syntax. Definition terms are bold and italic.
+
+<dl>
+    <dt>Name</dt>
+    <dd>Godzilla</dd>
+    <dt>Born</dt>
+    <dd>1952</dd>
+    <dt>Birthplace</dt>
+    <dd>Japan</dd>
+    <dt>Color</dt>
+    <dd>Green</dd>
+</dl>
 
 ----------------
 
