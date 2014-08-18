@@ -4,7 +4,11 @@ There should be whitespace between paragraphs. There should be whitespace betwee
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
-> Blockquotes should be a lighter gray with a gray border along the left side. Blockquotes should be a lighter gray with a gray border along the left side. Blockquotes should be a lighter gray with a gray border along the left side. Blockquotes should be a lighter gray with a gray border along the left side.
+> There should be no margin above this first sentence.
+>
+> Blockquotes should be a lighter gray with a gray border along the left side.
+>
+> There should be no margin below this final sentence.
 
 # Header 1
 
@@ -137,7 +141,10 @@ Small images should be shown at their actual size.
 
 ![](http://placekitten.com/g/300/200/)
 
-Large images should always fit in the content container.
+Large images should always scale down and fit in the content container.
 
 ![](http://placekitten.com/g/1200/800/)
 
+```
+This is the final element on the page and there should be no margin below this.
+```
