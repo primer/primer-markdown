@@ -131,3 +131,13 @@ Inline code inside table cells should still be distinguishable.
 | Javascript  | `var foo = "bar";` |
 | Ruby        | `foo = "bar"`      |
 
+----------------
+
+Small images should be shown at their actual size.
+
+![](http://placekitten.com/g/300/200/)
+
+Large images should always fit in the content container.
+
+![](http://placekitten.com/g/1200/800/)
+
