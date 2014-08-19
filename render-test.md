@@ -69,6 +69,7 @@ And a nested list:
   * Tito
   * Jackie
   * Marlon
+  * Jermaine
 * TMNT
   * Leonardo
   * Michelangelo
