@@ -70,7 +70,7 @@ And an unordered task list:
 
 And a "mixed" task list:
 
-- [ ] Steal underpands
+- [ ] Steal underpants
 - ?
 - [ ] Profit!
 
