@@ -61,7 +61,6 @@ And an ordered list:
 1. Michael Jackson
 2. Michael Bolton
 3. Michael Bublé
-4. 
 
 And an unordered task list:
 
