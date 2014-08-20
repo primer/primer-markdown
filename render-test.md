@@ -64,7 +64,7 @@ And an ordered list:
 
 And an unordered task list:
 
-- [x] Chreate a sample markdown document
+- [x] Create a sample markdown document
 - [x] Add task lists to it
 - [ ] Take a vacation
 
