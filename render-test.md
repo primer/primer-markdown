@@ -61,6 +61,19 @@ And an ordered list:
 1. Michael Jackson
 2. Michael Bolton
 3. Michael Bublé
+4. 
+
+And an unordered task list:
+
+- [x] Chreate a sample markdown document
+- [x] Add task lists to it
+- [ ] Take a vacation
+
+And a "mixed" task list:
+
+- [ ] Steal underpands
+- ?
+- [ ] Profit!
 
 And a nested list:
 
