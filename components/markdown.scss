@@ -342,7 +342,7 @@ $margin: 16px;
     br { display: none; }
   }
 
-  del code { text-decoration: inherit; vertical-align: text-top; }
+  del code { text-decoration: inherit; }
 
   // Code tags within code blocks (<pre>s)
   pre > code {

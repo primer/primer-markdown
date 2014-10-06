@@ -123,6 +123,8 @@ If a table is too wide, it should condense down and/or scroll horizontally.
 
 Code snippets like `var foo = "bar";` can be shown inline.
 
+Also, `this should vertically align` ~~`with this`~~ ~~and this~~.
+
 Code can also be shown in a block element.
 ````
 var foo = "bar";
