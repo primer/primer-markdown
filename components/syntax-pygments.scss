@@ -1,5 +1,13 @@
-.highlight  {
+.highlight {
   background: #fff;
+
+  // Main highlight context
+  // -- resets the highlighting style
+  .h {
+    color: #333;
+    font-style: normal;
+    font-weight: normal;
+  }
 
   .mf,  // Literal.Number.Float
   .mh,  // Literal.Number.Hex
