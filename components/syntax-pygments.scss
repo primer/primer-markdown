@@ -56,8 +56,9 @@
     font-style: italic;
   }
 
-  .cp,  // Comment.Preproc
-  .cs   // Comment.Special
+  .cp,   // Comment.Preproc
+  .cs,   // Comment.Special
+  .cp .h // Closing bracket in Ruby interpolated strings. See https://github.com/atom/atom/issues/716.
   {
     color: #999;
     font-weight: bold;
