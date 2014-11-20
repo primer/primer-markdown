@@ -14,6 +14,7 @@
     "*.js",
     "README.md",
     "Gruntfile.js",
-    "package.json"
+    "package.json",
+    "render-test.md"
   ]
 }
