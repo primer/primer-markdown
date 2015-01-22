@@ -2,6 +2,10 @@
 
 Stylesheets for rendering GitHub Flavored Markdown and syntax highlighted code snippets (powered by Pygments). Built to be used with [Primer](/primer/primer).
 
+[**Read the Primer documentation**](http://primercss.io/user-content) to learn more.
+
+_**Heads up!** We love open source, but Primer and it's projects are unlikely to add new features that are not used in GitHub.com. It's first and foremost our design toolkit. We really love to share though, so hopefully that means we're still friends <3._
+
 ## SCSS and CSS
 
 The GitHub user content stylesheets ship in two formats, CSS and SCSS.
