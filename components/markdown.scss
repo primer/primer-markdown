@@ -496,6 +496,10 @@ $margin: 16px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+  
+  .emoji {
+    max-width: none;
+  }
 
   // Gollum Image Tags
 
