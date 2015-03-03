@@ -264,6 +264,14 @@ $margin: 16px;
     margin-bottom: 0 !important;
   }
 
+  // Anchors like <a name="examples">. These sometimes end up wrapped around
+  // text when users mistakenly forget to close the tag or use self-closing tag
+  // syntax. We don't want them to appear like links.
+  a:not(:link):not(:visited) {
+    color: inherit;
+    text-decoration: none;
+  }
+
   // Link Colors
   .absent {
     color: #c00;
