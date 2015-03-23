@@ -1,5 +1,5 @@
 {
-  "name": "primer-user-content",
+  "name": "primer-markdown",
   "description": "GitHub stylesheets for rendering markdown and syntax highlighting.",
   "version": "2.1.7",
   "keywords": [
@@ -7,20 +7,20 @@
     "markdown",
     "css"
   ],
-  "homepage": "https://github.com/primer/user-content",
+  "homepage": "https://github.com/primer/markdown",
   "author": "GitHub, Inc.",
   "style": "user-content.css",
   "less": "scss/user-content.scss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/primer/user-content.git"
+    "url": "https://github.com/primer/markdown.git"
   },
   "bugs": {
-    "url": "https://github.com/primer/user-content/issues"
+    "url": "https://github.com/primer/markdown/issues"
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/primer/user-content/blob/master/LICENSE.md"
+    "url": "https://github.com/primer/markdown/blob/master/LICENSE.md"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
