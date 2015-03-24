@@ -1,4 +1,4 @@
-# Primer user content styles
+# Primer markdown styles
 
 Stylesheets for rendering GitHub Flavored Markdown and syntax highlighted code snippets (powered by Pygments). Built to be used with [Primer](/primer/primer).
 
