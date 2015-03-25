@@ -1,6 +1,6 @@
 # Primer markdown styles
 
-Stylesheets for rendering GitHub Flavored Markdown and syntax highlighted code snippets (powered by Pygments). Built to be used with [Primer](/primer/primer).
+Stylesheets for rendering GitHub Flavored Markdown and syntax highlighted code snippets (powered by Pygments). Built to be used with [Primer](https://github.com/primer/primer).
 
 [**Read the Primer documentation**](http://primercss.io/markdown) to learn more.
 
