@@ -4,7 +4,7 @@ Stylesheets for rendering GitHub Flavored Markdown and syntax highlighted code s
 
 [**Read the Primer documentation**](http://primercss.io/user-content) to learn more.
 
-_**Heads up!** We love open source, but Primer and it's projects are unlikely to add new features that are not used in GitHub.com. It's first and foremost our CSS toolkit. We really love to share though, so hopefully that means we're still friends <3._
+_**Heads up!** We love open source, but Primer and its projects are unlikely to add new features that are not used in GitHub.com. It's first and foremost our CSS toolkit. We really love to share though, so hopefully that means we're still friends <3._
 
 ## SCSS and CSS
 
