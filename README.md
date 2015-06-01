@@ -28,7 +28,7 @@ The stylesheets are written in SCSS and compiled to regular CSS. Also included i
 2. Navigate to the root `/user-content` directory, then run `npm install` to install the necessary dependencies.
 3. Done! Now you can run `grunt` from the command line to compile SCSS to CSS.
 
-**Unfamiliar with `npm`? Don't have node installed?** That's a-okay. npm stands for [node packaged modules](http://npmjs.org/) and is a way to manage development dependencies through node.js. [Download and install node.js](http://nodejs.org/download/) before proceeding.
+**Unfamiliar with `npm`? Don't have node installed?** That's a-okay. [npm](http://npmjs.org/) is a way to manage development dependencies through node.js. [Download and install node.js](http://nodejs.org/download/) before proceeding.
 
 ## Contributing
 
