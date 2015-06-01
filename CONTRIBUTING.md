@@ -10,12 +10,12 @@ Before you do, would you mind reading [this license agreement](CLA.md)? If you o
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/twbs/bootstrap/issues) is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests), but please respect the following restrictions:
+The [issue tracker](https://github.com/primer/markdown/issues) is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests), but please respect the following restrictions:
 
 * Please **do not** use the issue tracker for personal support requests.
 * Please **do not** derail or troll issues. Keep the discussion on topic and respect the opinions of others.
 * Please **do not** open issues or pull requests regarding the code in [`Normalize`](https://github.com/necolas/normalize.css) (open them in their respective repositories).
-  
+
 ## Bug reports
 
 A bug is a _demonstrable problem_ that is caused by the code in the repository. Good bug reports are extremely helpful, so thanks!
