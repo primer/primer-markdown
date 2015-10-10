@@ -280,13 +280,9 @@ $margin: 16px;
   }
 
   .anchor {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    padding-right: 6px;
-    padding-left: 30px;
-    margin-left: -30px;
+    display: inline-block;
+    padding-right: 2px;
+    margin-left: -18px;
 
     &:focus {
       outline: none;
@@ -295,25 +291,22 @@ $margin: 16px;
 
   // Headings
   h1, h2, h3, h4, h5, h6 {
-    position: relative;
     margin-top: 1em;
     margin-bottom: $margin;
     font-weight: bold;
     line-height: 1.4;
 
     .octicon-link {
-      display: none;
       color: #000;
       vertical-align: middle;
+      visibility: hidden;
     }
 
     &:hover .anchor {
-      padding-left: 8px;
-      margin-left: -30px;
       text-decoration: none;
 
       .octicon-link {
-        display: inline-block;
+        visibility: visible;
       }
     }
 
@@ -505,8 +498,17 @@ $margin: 16px;
     max-width: 100%;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    background-color: #fff;
+
+    &[align=right] {
+      padding-left: 20px;
+    }
+
+    &[align=left] {
+      padding-right: 20px;
+    }
   }
-  
+
   .emoji {
     max-width: none;
   }
@@ -690,4 +692,3 @@ $margin: 16px;
     box-shadow: inset 0 -1px 0 #bbb;
   }
 }
-
