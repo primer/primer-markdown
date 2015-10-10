@@ -15,5 +15,6 @@
     "Gruntfile.js",
     "package.json",
     "render-test.md"
-  ]
+  ],
+  "version": "2.2.1"
 }
