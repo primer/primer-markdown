@@ -6,7 +6,7 @@
     "css"
   ],
   "main": [
-    "dist/github-markdown.css"
+    "dist/user-content.css"
   ],
   "ignore": [
     "**/.*",
