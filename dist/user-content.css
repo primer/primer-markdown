@@ -1,5 +1,5 @@
 /*!
- * GitHub User Content Stylesheets v2.2.1 (https://github.com/primer/markdown)
+ * GitHub User Content Stylesheets v2.2.3 (https://github.com/primer/markdown)
  * Copyright 2015 GitHub, Inc.
  * Licensed under MIT (https://github.com/primer/markdown/blob/master/LICENSE.md).
  */
@@ -183,8 +183,7 @@
 }
 .markdown-body img {
   max-width: 100%;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: content-box;
   background-color: #fff;
 }
 .markdown-body img[align=right] {
