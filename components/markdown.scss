@@ -254,6 +254,18 @@ $margin: 16px;
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
+  
+  // Clearfix on the markdown body
+  &:before {
+    display: table;
+    content: "";
+  }
+
+  &:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
 
   > *:first-child {
     margin-top: 0 !important;
