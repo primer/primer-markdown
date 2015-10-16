@@ -10,6 +10,15 @@
   line-height: 1.6;
   word-wrap: break-word;
 }
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
 .markdown-body > *:first-child {
   margin-top: 0 !important;
 }
