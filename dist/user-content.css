@@ -1,11 +1,11 @@
 /*!
- * GitHub User Content Stylesheets v2.2.3 (https://github.com/primer/markdown)
+ * GitHub User Content Stylesheets v2.3.0 (https://github.com/primer/markdown)
  * Copyright 2015 GitHub, Inc.
  * Licensed under MIT (https://github.com/primer/markdown/blob/master/LICENSE.md).
  */
 
 .markdown-body {
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
