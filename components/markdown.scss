@@ -524,6 +524,8 @@ $margin: 16px;
 
   .emoji {
     max-width: none;
+    // Override `<img>` styles so Emjois don't clash with zebra striping in our tables
+    background-color: transparent;
   }
 
   // Gollum Image Tags
