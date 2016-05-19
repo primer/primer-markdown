@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - '5'
+
+before_install:
+  - gem install scss_lint
+
+deploy:
+  provider: npm
+  email: ${NPM_EMAIL}
+  api_key: ${NPM_API_KEY}
+  on:
+    branch: master
+    repo: ${TRAVIS_REPO_SLUG}

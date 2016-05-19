@@ -1,0 +1,91 @@
+// Needs refactoring
+// scss-lint:disable NestingDepth SelectorDepth
+.markdown-body {
+  // Headings
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1em;
+    margin-bottom: $margin;
+    font-weight: bold;
+    line-height: 1.4;
+
+    .octicon-link {
+      color: #000;
+      vertical-align: middle;
+      visibility: hidden;
+    }
+
+    &:hover .anchor {
+      text-decoration: none;
+
+      .octicon-link {
+        visibility: visible;
+      }
+    }
+
+    tt,
+    code {
+      font-size: inherit;
+    }
+  }
+
+  h1 {
+    padding-bottom: 0.3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+
+    .anchor {
+      line-height: 1;
+    }
+  }
+
+  h2 {
+    padding-bottom: 0.3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+
+    .anchor {
+      line-height: 1;
+    }
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+
+    .anchor {
+      line-height: 1.2;
+    }
+  }
+
+  h4 {
+    font-size: 1.25em;
+
+    .anchor {
+      line-height: 1.2;
+    }
+  }
+
+  h5 {
+    font-size: 1em;
+
+    .anchor {
+      line-height: 1.1;
+    }
+  }
+
+  h6 {
+    font-size: 1em;
+    color: #777;
+
+    .anchor {
+      line-height: 1.1;
+    }
+  }
+}

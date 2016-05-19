@@ -1,0 +1,24 @@
+{
+  "author": "GitHub, Inc.",
+  "bugs": {
+    "url": "https://github.com/primer/markdown/issues"
+  },
+  "dependencies": {
+    "primer-support": "^0.2.0"
+  },
+  "description": "GitHub stylesheets for rendering markdown and syntax highlighting.",
+  "homepage": "https://github.com/primer/markdown",
+  "keywords": [
+    "github",
+    "markdown",
+    "css"
+  ],
+  "license": "MIT",
+  "main": "markdown.scss",
+  "name": "primer-markdown",
+  "repository": "https://github.com/primer/markdown.git",
+  "scripts": {
+    "test": "scss-lint *.scss"
+  },
+  "version": "3.0.0"
+}
