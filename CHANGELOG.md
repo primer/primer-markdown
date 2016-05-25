@@ -1,3 +1,12 @@
+# v3.1.0
+
+ * Don't link requirements - Jon Rohan [github/github@7740e81](https://github.com/github/github/commit/7740e81)
+ * Updating the README with more detailed instructions - Jon Rohan [github/github@5dd7c34](https://github.com/github/github/commit/5dd7c34)
+ * Bumping the version - Jon Rohan [github/github@01e7c4e](https://github.com/github/github/commit/01e7c4e)
+ * Reorganize the module folders into a more flexible organization - Jon Rohan [github/github@5a07101](https://github.com/github/github/commit/5a07101)
+ * cleaning up the package.json files - Jon Rohan [github/github@77763a1](https://github.com/github/github/commit/77763a1)
+ * Adding npm version badges to readme - Jon Rohan [github/github@90b1871](https://github.com/github/github/commit/90b1871)
+
 # v3.0.0
 
  * Adding travis build status - Jon Rohan [github/github@5758f9e](https://github.com/github/github/commit/5758f9e)
