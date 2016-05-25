@@ -1,24 +1,42 @@
 {
+  "version": "3.1.0",
+  "name": "primer-markdown",
+  "description": "GitHub stylesheets for rendering markdown.",
+  "homepage": "https://github.com/primer/markdown",
   "author": "GitHub, Inc.",
+  "license": "MIT",
+  "style": "index.scss",
+  "files": [
+    "index.scss",
+    "lib"
+  ],
+  "repository": "https://github.com/primer/markdown.git",
   "bugs": {
     "url": "https://github.com/primer/markdown/issues"
   },
-  "dependencies": {
-    "primer-support": "^0.2.0"
+  "scripts": {
+    "build": "npm run setup && npm run preprocess",
+    "lint": "scss-lint **/*.scss",
+    "preprocess": "node-sass index.scss --include-path node_modules | postcss -c .postcss.json -o build/build.css",
+    "setup": "npm install",
+    "test": "npm run lint"
   },
-  "description": "GitHub stylesheets for rendering markdown and syntax highlighting.",
-  "homepage": "https://github.com/primer/markdown",
+  "dependencies": {
+    "primer-support": "*"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "node-sass": "^3.7.0",
+    "postcss-cli": "^2.5.2"
+  },
   "keywords": [
     "github",
     "markdown",
-    "css"
-  ],
-  "license": "MIT",
-  "main": "markdown.scss",
-  "name": "primer-markdown",
-  "repository": "https://github.com/primer/markdown.git",
-  "scripts": {
-    "test": "scss-lint *.scss"
-  },
-  "version": "3.0.0"
+    "css",
+    "scss",
+    "primer",
+    "style",
+    "stylesheets",
+    "md"
+  ]
 }

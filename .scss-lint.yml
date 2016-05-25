@@ -41,7 +41,7 @@ linters:
   UtilityClasses:
     enabled: true
     utility_files:
-      - "app/assets/stylesheets/_lint-check.scss"
+      - "app/assets/stylesheets/modules/utilities/index.scss"
 
   VariablesFile:
     enabled: true
@@ -125,7 +125,7 @@ linters:
   ImportPath:
     enabled: true
     leading_underscore: false
-    filename_extension: false
+    filename_extension: true
 
   Indentation:
     enabled: true
