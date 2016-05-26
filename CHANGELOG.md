@@ -1,3 +1,8 @@
+# HEAD
+
+ * Using stylelint to lint the modules instead of scss_lint - Jon Rohan [github/github@cb0b8fd](https://github.com/github/github/commit/cb0b8fd)
+ * Updating for stylelint instead of scss_lint - Jon Rohan [github/github@87a2c68](https://github.com/github/github/commit/87a2c68)
+
 # v3.1.0
 
  * Don't link requirements - Jon Rohan [github/github@7740e81](https://github.com/github/github/commit/7740e81)
