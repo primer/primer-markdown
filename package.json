@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "npm run setup && npm run preprocess",
-    "lint": "scss-lint **/*.scss",
+    "lint": "stylelint **/*.scss -c .stylelintrc.json -s scss",
     "preprocess": "node-sass index.scss --include-path node_modules | postcss -c .postcss.json -o build/build.css",
     "setup": "npm install",
     "test": "npm run lint"
@@ -27,7 +27,10 @@
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "node-sass": "^3.7.0",
-    "postcss-cli": "^2.5.2"
+    "postcss-cli": "^2.5.2",
+    "stylelint": "^6.5.1",
+    "stylelint-at-rule-import-path": "^1.0.2",
+    "stylelint-value-border-zero": "^1.0.2"
   },
   "keywords": [
     "github",

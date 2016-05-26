@@ -1,5 +1,4 @@
 // Needs refactoring
-// scss-lint:disable NestingDepth
 .markdown-body {
   // Tables
   table {
@@ -7,10 +6,8 @@
     width: 100%;
     overflow: auto;
     // For Firefox to horizontally scroll wider tables.
-    // scss-lint:disable DuplicateProperty
     word-break: normal;
     word-break: keep-all;
-    // scss-lint:enable DuplicateProperty
 
     th {
       font-weight: bold;

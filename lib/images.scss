@@ -1,5 +1,5 @@
 // Need to target base styles
-// scss-lint:disable SelectorTagTargeting QualifyingElement SelectorDepth UtilityClasses
+// stylelint-disable selector-max-compound-selectors, selector-no-qualifying-type
 .markdown-body {
   // Images & Stuff
   img {
@@ -20,6 +20,7 @@
 
   .emoji {
     max-width: none;
+    vertical-align: text-top;
     // Override `<img>` styles so Emjois don't clash with zebra striping in our tables
     background-color: transparent;
   }
