@@ -1,5 +1,8 @@
-# HEAD
+# v3.1.2
 
+ * Mentioning the build file - Jon Rohan [github/github@64ca4a7](https://github.com/github/github/commit/64ca4a7)
+ * Including build/build.css in distributed npm module - Jon Rohan [github/github@e4effbf](https://github.com/github/github/commit/e4effbf)
+ * Updating modules to run on prepublish to include build.css in distribution - Jon Rohan [github/github@5b573a0](https://github.com/github/github/commit/5b573a0)
  * Re-ordering the docs to the bottom of the readme - Jon Rohan [github/github@9c1f291](https://github.com/github/github/commit/9c1f291)
  * Updating the link - Jon Rohan [github/github@f67684b](https://github.com/github/github/commit/f67684b)
 
