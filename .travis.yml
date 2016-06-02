@@ -6,6 +6,7 @@ deploy:
   provider: npm
   email: ${NPM_EMAIL}
   api_key: ${NPM_API_KEY}
+  skip_cleanup: true
   on:
     branch: master
     repo: ${TRAVIS_REPO_SLUG}

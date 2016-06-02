@@ -27,7 +27,7 @@ You can also import specific portions of the module by importing those partials 
 
 ## Build
 
-For a compiled **css** version of this module, a npm script is included that will output a css version to `build/build.css`
+For a compiled **css** version of this module, a npm script is included that will output a css version to `build/build.css` The built css file is also included in the npm package.
 
 ```
 $ npm run build
