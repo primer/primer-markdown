@@ -1,3 +1,8 @@
+# HEAD
+
+ * Re-ordering the docs to the bottom of the readme - Jon Rohan [github/github@9c1f291](https://github.com/github/github/commit/9c1f291)
+ * Updating the link - Jon Rohan [github/github@f67684b](https://github.com/github/github/commit/f67684b)
+
 # v3.1.1
 
  * Bumping version to include postcss.json in npm - Jon Rohan [github/github@9e560ba](https://github.com/github/github/commit/9e560ba)
