@@ -1,3 +1,7 @@
+# HEAD
+
+ * Adding lint plugins for new config - Jon Rohan [github/github@7fb9613](https://github.com/github/github/commit/7fb9613)
+
 # v3.1.2
 
  * Mentioning the build file - Jon Rohan [github/github@64ca4a7](https://github.com/github/github/commit/64ca4a7)
