@@ -1,16 +1,10 @@
 {
   "plugins": [
-    "stylelint-at-rule-import-path",
-    "stylelint-value-border-zero"
+    "stylelint-value-border-zero",
+    "stylelint-scss",
+    "stylelint-function-url-no-domain"
   ],
   "rules": {
-    "at-rule-import-path": [
-      true,
-      {
-        "allowExtension": true,
-        "allowUnderscore": false
-      }
-    ],
     "at-rule-name-case": "lower",
     "at-rule-name-space-after": "always-single-line",
     "at-rule-semicolon-newline-after": "always",
@@ -258,6 +252,7 @@
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "number-zero-length-no-unit": true,
+    "primer/function-url-no-domain": true,
     "property-case": "lower",
     "property-no-vendor-prefix": true,
     "property-value-blacklist": {
@@ -279,6 +274,8 @@
         ]
       }
     ],
+    "scss/at-extend-no-missing-placeholder": true,
+    "scss/selector-no-redundant-nesting-selector": true,
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",
     "selector-attribute-operator-space-before": "never",

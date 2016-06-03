@@ -29,8 +29,9 @@
     "node-sass": "^3.7.0",
     "postcss-cli": "^2.5.2",
     "stylelint": "^6.5.1",
-    "stylelint-at-rule-import-path": "^1.0.2",
-    "stylelint-value-border-zero": "^1.0.2"
+    "stylelint-value-border-zero": "^1.0.2",
+    "stylelint-function-url-no-domain": "^1.0.0",
+    "stylelint-scss": "^1.1.1"
   },
   "keywords": [
     "github",
