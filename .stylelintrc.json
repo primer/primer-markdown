@@ -1,8 +1,6 @@
 {
   "plugins": [
-    "stylelint-value-border-zero",
     "stylelint-scss",
-    "stylelint-function-url-no-domain",
     "stylelint-selector-no-utility"
   ],
   "rules": {
@@ -253,16 +251,21 @@
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "number-zero-length-no-unit": true,
-    "primer/function-url-no-domain": true,
     "primer/selector-no-utility": true,
     "property-case": "lower",
     "property-no-vendor-prefix": true,
     "property-value-blacklist": {
-      "/.+/": [
-        "initial"
-      ],
       "/^transition/": [
         "/all/"
+      ],
+      "/^background/": [
+        "/http:/"
+      ],
+      "/^border/": [
+        "none"
+      ],
+      "/.+/": [
+        "initial"
       ]
     },
     "rule-nested-empty-line-before": [
@@ -306,9 +309,6 @@
     "string-quotes": "double",
     "unit-case": "lower",
     "unit-no-unknown": true,
-    "value-border-zero": {
-      "convention": "0"
-    },
     "value-list-comma-newline-after": "always-multi-line",
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
