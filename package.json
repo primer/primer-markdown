@@ -28,9 +28,8 @@
     "autoprefixer": "^6.3.6",
     "node-sass": "^3.7.0",
     "postcss-cli": "^2.5.2",
-    "stylelint": "^6.5.1",
-    "stylelint-scss": "^1.1.1",
-    "stylelint-selector-no-utility": "^1.1.0"
+    "stylelint": "^6.6.0",
+    "stylelint-config-primer": "^1.0.0"
   },
   "keywords": [
     "github",
