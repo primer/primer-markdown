@@ -1,5 +1,6 @@
 # HEAD
 
+ * Adding link to homepage in readme docs - Jon Rohan [github/github@633f421](https://github.com/github/github/commit/633f421)
  * Removing some unnecessary lint plugins and using native - Jon Rohan [github/github@2ae0070](https://github.com/github/github/commit/2ae0070)
  * including no-utility lint plugin - Jon Rohan [github/github@5cb86ed](https://github.com/github/github/commit/5cb86ed)
  * Disabling utility check - Jon Rohan [github/github@e92dbf4](https://github.com/github/github/commit/e92dbf4)
