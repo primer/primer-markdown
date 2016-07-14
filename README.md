@@ -40,6 +40,7 @@ You can read more about other primer modules in the [full primer docs][docs].
 <!-- %docs
 title: Markdown
 homepage: https://github.com/primer/markdown
+status: Stable
 -->
 
 ### Markdown test document

@@ -48,6 +48,10 @@
     margin-top: $margin;
   }
 
+  li + li {
+    margin-top: 0.25em;
+  }
+
   dl {
     padding: 0;
 

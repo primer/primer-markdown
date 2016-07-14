@@ -5,9 +5,9 @@ $margin: 16px;
 // container with .markdown-body on it should render generally well. It also
 // includes some GitHub Flavored Markdown specific styling (like @mentions)
 .markdown-body {
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: $body-font;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: $body-line-height;
   word-wrap: break-word;
 
   // Clearfix on the markdown body
