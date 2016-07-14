@@ -1,5 +1,7 @@
-# HEAD
+# v3.2.0
 
+ * Bumping to a new version - Jon Rohan [github/github@ff32813](https://github.com/github/github/commit/ff32813)
+ * Make sure the modules build without error before publishing - Jon Rohan [github/github@57ac5e6](https://github.com/github/github/commit/57ac5e6)
  * First part of genpopping all system font changes: remove typographic overrides for font-size, line-height, etc on global components - Mark Otto [github/github@6c50e2d](https://github.com/github/github/commit/6c50e2d)
  * Adding documentation status to most of the modules - Jon Rohan [github/github@b97695c](https://github.com/github/github/commit/b97695c)
 
