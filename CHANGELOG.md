@@ -1,3 +1,12 @@
+# HEAD
+
+ * Fix lint test - Garen Torikian [github/github@0d2bc5d](https://github.com/github/github/commit/0d2bc5d)
+ * Keep it together - Garen Torikian [github/github@50871a8](https://github.com/github/github/commit/50871a8)
+ * Updating the modules stylelint - Jon Rohan [github/github@389609f](https://github.com/github/github/commit/389609f)
+ * more linting - Mark Otto [github/github@5d8e498](https://github.com/github/github/commit/5d8e498)
+ * leading zero - Mark Otto [github/github@46b14af](https://github.com/github/github/commit/46b14af)
+ * Update Markdown typography styles - Mark Otto [github/github@ffd6b27](https://github.com/github/github/commit/ffd6b27)
+
 # v3.2.0
 
  * Bumping to a new version - Jon Rohan [github/github@ff32813](https://github.com/github/github/commit/ff32813)
