@@ -5,7 +5,7 @@
 
 > Stylesheets for rendering GitHub Flavored Markdown and syntax highlighted code snippets.
 
-This repository is a module of the full [primer-css][primer] repository.
+This repository is a module of the full [primer-css][primer-css] repository.
 
 ## Install
 
@@ -216,7 +216,7 @@ This is the final element on the page and there should be no margin below this.
 
 [MIT](./LICENSE) &copy; [GitHub](https://github.com/)
 
-[primer]: https://github.com/primer/primer
+[primer-css]: https://github.com/primer/primer
 [docs]: http://primercss.io/
 [npm]: https://www.npmjs.com/
 [install-npm]: https://docs.npmjs.com/getting-started/installing-node
