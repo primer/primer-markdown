@@ -1,5 +1,6 @@
-# HEAD
+# v3.3.0
 
+ * Updating version - Jon Rohan [github/github@6bf5fe5](https://github.com/github/github/commit/6bf5fe5)
  * Fix lint test - Garen Torikian [github/github@0d2bc5d](https://github.com/github/github/commit/0d2bc5d)
  * Keep it together - Garen Torikian [github/github@50871a8](https://github.com/github/github/commit/50871a8)
  * Updating the modules stylelint - Jon Rohan [github/github@389609f](https://github.com/github/github/commit/389609f)
