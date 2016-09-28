@@ -1,13 +1,11 @@
 // Needs refactoring
+// stylelint-disable selector-no-type
 .markdown-body {
   // Tables
   table {
     display: block;
     width: 100%;
     overflow: auto;
-    // For Firefox to horizontally scroll wider tables.
-    word-break: normal;
-    word-break: keep-all;
 
     th {
       font-weight: bold;
