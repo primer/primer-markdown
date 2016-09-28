@@ -1,3 +1,7 @@
+# HEAD
+
+ * Separating out modules into primer-core and primer-product - Jon Rohan [github/github@ddf698c](https://github.com/github/github/commit/ddf698c)
+
 # v3.3.0
 
  * Updating version - Jon Rohan [github/github@6bf5fe5](https://github.com/github/github/commit/6bf5fe5)
