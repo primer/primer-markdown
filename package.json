@@ -1,8 +1,8 @@
 {
-  "version": "3.3.0",
+  "version": "3.3.1",
   "name": "primer-markdown",
   "description": "GitHub stylesheets for rendering markdown.",
-  "homepage": "https://github.com/primer/markdown",
+  "homepage": "https://github.com/primer/primer-markdown",
   "author": "GitHub, Inc.",
   "license": "MIT",
   "style": "index.scss",
@@ -11,9 +11,9 @@
     "lib",
     "build"
   ],
-  "repository": "https://github.com/primer/markdown.git",
+  "repository": "https://github.com/primer/primer-markdown.git",
   "bugs": {
-    "url": "https://github.com/primer/markdown/issues"
+    "url": "https://github.com/primer/primer-markdown/issues"
   },
   "scripts": {
     "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",

@@ -39,7 +39,7 @@ You can read more about other primer modules in the [full primer docs][docs].
 
 <!-- %docs
 title: Markdown
-homepage: https://github.com/primer/markdown
+homepage: https://github.com/primer/primer-markdown
 status: Stable
 -->
 
