@@ -1,3 +1,8 @@
+# HEAD
+
+ * Sorting and table objects. We also don't need homepage - Jon Rohan [github/github@798629d](https://github.com/github/github/commit/798629d)
+ * Removing duplicate headers - Jon Rohan [github/github@225cee1](https://github.com/github/github/commit/225cee1)
+
 # v3.3.1
 
  * Rename repository with prefix primer- - Jon Rohan [github/github@ec8774a](https://github.com/github/github/commit/ec8774a)
