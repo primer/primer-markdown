@@ -194,6 +194,17 @@ Inline code inside table cells should still be distinguishable.
 
 ----------------
 
+There should be some space before and after this `<details>` element.
+
+<details>
+  <summary>Expand to click</summary>
+  <p>More info about the details.</p>
+</details>
+
+This is a paragraph after the `<details>` element and should be reasonably spaced from the above content.
+
+----------------
+
 Small images should be shown at their actual size.
 
 ![](http://placekitten.com/g/300/200/)
