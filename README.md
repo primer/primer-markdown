@@ -203,6 +203,12 @@ There should be some space before and after this `<details>` element.
 
 This is a paragraph after the `<details>` element and should be reasonably spaced from the above content.
 
+<details>
+  More info about the details.
+</details>
+
+This is also a paragraph after a `<details>` element, but this `<details>` has no inner block-level content. It too should be reasonably spaced from this paragraph.
+
 ----------------
 
 Small images should be shown at their actual size.
