@@ -1,5 +1,10 @@
-# HEAD
+# v3.3.2
 
+ * bumping the version - Jon Rohan [github/github@4a72b25](https://github.com/github/github/commit/4a72b25)
+ * Pointing main js file to build - Jon Rohan [github/github@3575651](https://github.com/github/github/commit/3575651)
+ * don't change the versions yet - Jon Rohan [github/github@6bebcff](https://github.com/github/github/commit/6bebcff)
+ * Bumping version - Jon Rohan [github/github@df8b91c](https://github.com/github/github/commit/df8b91c)
+ * Cleaning up devDependencies versions and simplifying npm scripts - Jon Rohan [github/github@2c42571](https://github.com/github/github/commit/2c42571)
  * Sorting and table objects. We also don't need homepage - Jon Rohan [github/github@798629d](https://github.com/github/github/commit/798629d)
  * Removing duplicate headers - Jon Rohan [github/github@225cee1](https://github.com/github/github/commit/225cee1)
 
