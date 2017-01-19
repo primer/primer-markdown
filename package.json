@@ -1,11 +1,12 @@
 {
-  "version": "3.3.1",
+  "version": "3.3.2",
   "name": "primer-markdown",
   "description": "GitHub stylesheets for rendering markdown.",
   "homepage": "https://github.com/primer/primer-markdown",
   "author": "GitHub, Inc.",
   "license": "MIT",
   "style": "index.scss",
+  "main": "build/index.js",
   "files": [
     "index.scss",
     "lib",
@@ -16,20 +17,17 @@
     "url": "https://github.com/primer/primer-markdown/issues"
   },
   "scripts": {
-    "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
-    "build": "node-sass index.scss --include-path node_modules --output-style compressed | postcss -c .postcss.json -o build/build.css",
-    "prepublish": "npm run setup && npm run build",
+    "build": "primer-module-build index.scss",
+    "prepublish": "npm run build",
     "test": "npm run build && stylelint **/*.scss -c .stylelintrc.json -s scss"
   },
   "dependencies": {
     "primer-support": "*"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
-    "node-sass": "^3.7.0",
-    "postcss-cli": "^2.5.2",
-    "stylelint": "^7.0.3",
-    "stylelint-config-primer": "^1.1.0"
+    "stylelint": "*",
+    "stylelint-config-primer": "*",
+    "primer-module-build": "*"
   },
   "keywords": [
     "github",
