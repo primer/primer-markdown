@@ -1,3 +1,7 @@
+# v3.3.3
+
+ * update version numbers for primer package with bold update - broccolini [github/github@5d3e089](https://github.com/github/github/commit/5d3e089)
+
 # v3.3.2
 
  * bumping the version - Jon Rohan [github/github@4a72b25](https://github.com/github/github/commit/4a72b25)
