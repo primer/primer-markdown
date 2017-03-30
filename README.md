@@ -168,11 +168,13 @@ Code snippets like `var foo = "bar";` can be shown inline.
 Also, `this should vertically align` ~~`with this`~~ ~~and this~~.
 
 Code can also be shown in a block element.
+
 ```
 var foo = "bar";
 ```
 
 Code can also use syntax highlighting.
+
 ```javascript
 var foo = "bar";
 ```
